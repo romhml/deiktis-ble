@@ -1,0 +1,9 @@
+menu "Device Configuration"
+     config MODEL_NAME
+          string "Model name"
+          default "Zero"
+
+     config BATTERY_LEVEL_PIN
+          string "Battery Level Pin" 
+          default "34"
+endmenu
